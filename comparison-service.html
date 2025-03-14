@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare Site Cloning Services | BrandCloner</title>
+  <meta name="description" content="Compare the best site cloning services side-by-side. See actual cloning results and choose the right service for your needs.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html"><span>Brand</span>Cloner</a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#how-it-works">How It Works</a></li>
+          <li><a href="index.html#playground">Try It</a></li>
+          <li><a href="category-showcase.html">Showcases</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <a href="#" class="btn btn-outline">Login</a>
+        <a href="index.html#playground" class="btn btn-primary">Get Started</a>
+      </div>
+      <button class="mobile-menu-toggle">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <h1>Compare Site Cloning Services</h1>
+        <p>Enter any URL and compare how different services clone that site. Find the best solution for your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="comparison-tool">
+    <div class="container">
+      <div class="url-input-container">
+        <input type="text" id="compare-url" placeholder="Enter a website URL to compare cloning services (e.g., apple.com, nike.com)" class="url-input">
+        <button id="compare-button" class="btn btn-primary">Compare Services</button>
+      </div>
+      
+      <div id="comparison-results" class="comparison-results">
+        <div class="results-empty-state">
+          <i data-feather="search"></i>
+          <p>Enter a URL above to see how different services clone the site</p>
+        </div>
+        
+        <div class="results-loading" style="display: none;">
+          <div class="loader"></div>
+          <p>Comparing cloning services...</p>
+        </div>
+        
+        <div class="results-error" style="display: none;">
+          <i data-feather="alert-circle"></i>
+          <p>Unable to process this URL. Please try another website.</p>
+        </div>
+        
+        <div class="results-success" style="display: none;">
+          <div class="original-site">
+            <h3>Original Site</h3>
+            <div class="site-preview">
+              <div class="preview-header">
+                <h4 id="original-url">example.com</h4>
+              </div>
+              <div class="preview-frame">
+                <div class="img-placeholder">Original Website Preview</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="services-comparison">
+            <h3>Cloning Service Comparison</h3>
+            <div class="comparison-grid">
+              <!-- Service 1 -->
+              <div class="service-card">
+                <div class="service-header">
+                  <h4>BrandCloner</h4>
+                  <span class="service-rating">
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <span>5.0</span>
+                  </span>
+                </div>
+                <div class="service-preview">
+                  <div class="img-placeholder">BrandCloner Clone Preview</div>
+                </div>
+                <div class="service-details">
+                  <ul class="service-features">
+                    <li><i data-feather="check"></i> 98% Style Accuracy</li>
+                    <li><i data-feather="check"></i> One-Click Deployment</li>
+                    <li><i data-feather="check"></i> Full Code Access</li>
+                    <li><i data-feather="check"></i> Legal Compliance Tools</li>
+                  </ul>
+                  <div class="service-pricing">
+                    <span class="price">$29</span>
+                    <span class="period">/month</span>
+                  </div>
+                  <a href="index.html#pricing" class="btn btn-primary btn-block">Get Started</a>
+                </div>
+              </div>
+              
+              <!-- Service 2 -->
+              <div class="service-card">
+                <div class="service-header">
+                  <h4>CloneRival</h4>
+                  <span class="service-rating">
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star-half"></i>
+                    <span>4.5</span>
+                  </span>
+                </div>
+                <div class="service-preview">
+                  <div class="img-placeholder">CloneRival Preview</div>
+                </div>
+                <div class="service-details">
+                  <ul class="service-features">
+                    <li><i data-feather="check"></i> 85% Style Accuracy</li>
+                    <li><i data-feather="check"></i> Manual Deployment</li>
+                    <li><i data-feather="check"></i> Limited Code Access</li>
+                    <li><i data-feather="x"></i> No Legal Tools</li>
+                  </ul>
+                  <div class="service-pricing">
+                    <span class="price">$19</span>
+                    <span class="period">/month</span>
+                  </div>
+                  <a href="https://example.com/affiliate/clonerival" target="_blank" rel="nofollow" class="btn btn-outline btn-block">Visit CloneRival</a>
+                </div>
+              </div>
+              
+              <!-- Service 3 -->
+              <div class="service-card">
+                <div class="service-header">
+                  <h4>StyleMimic</h4>
+                  <span class="service-rating">
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <span>4.8</span>
+                  </span>
+                </div>
+                <div class="service-preview">
+                  <div class="img-placeholder">StyleMimic Preview</div>
+                </div>
+                <div class="service-details">
+                  <ul class="service-features">
+                    <li><i data-feather="check"></i> 92% Style Accuracy</li>
+                    <li><i data-feather="check"></i> Simple Deployment</li>
+                    <li><i data-feather="check"></i> Full Code Access</li>
+                    <li><i data-feather="check"></i> Basic Legal Tools</li>
+                  </ul>
+                  <div class="service-pricing">
+                    <span class="price">$39</span>
+                    <span class="period">/month</span>
+                  </div>
+                  <a href="https://example.com/affiliate/stylemimic" target="_blank" rel="nofollow" class="btn btn-outline btn-block">Visit StyleMimic</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="comparison-details">
+            <h3>Detailed Comparison</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>BrandCloner</th>
+                  <th>CloneRival</th>
+                  <th>StyleMimic</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Style Accuracy</td>
+                  <td><i data-feather="check" class="icon-check"></i> 98%</td>
+                  <td><i data-feather="check" class="icon-partial"></i> 85%</td>
+                  <td><i data-feather="check" class="icon-check"></i> 92%</td>
+                </tr>
+                <tr>
+                  <td>Font Matching</td>
+                  <td><i data-feather="check" class="icon-check"></i> Exact Match</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Similar</td>
+                  <td><i data-feather="check" class="icon-check"></i> Exact Match</td>
+                </tr>
+                <tr>
+                  <td>Color Extraction</td>
+                  <td><i data-feather="check" class="icon-check"></i> Full Palette</td>
+                  <td><i data-feather="check" class="icon-check"></i> Full Palette</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Main Colors</td>
+                </tr>
+                <tr>
+                  <td>Layout Cloning</td>
+                  <td><i data-feather="check" class="icon-check"></i> Pixel Perfect</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Approximate</td>
+                  <td><i data-feather="check" class="icon-check"></i> Very Close</td>
+                </tr>
+                <tr>
+                  <td>Responsive Design</td>
+                  <td><i data-feather="check" class="icon-check"></i> All Devices</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Limited</td>
+                  <td><i data-feather="check" class="icon-check"></i> All Devices</td>
+                </tr>
+                <tr>
+                  <td>Code Quality</td>
+                  <td><i data-feather="check" class="icon-check"></i> Clean & Optimized</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Basic</td>
+                  <td><i data-feather="check" class="icon-check"></i> Well Structured</td>
+                </tr>
+                <tr>
+                  <td>Deployment</td>
+                  <td><i data-feather="check" class="icon-check"></i> One-Click to Cloudflare</td>
+                  <td><i data-feather="x" class="icon-x"></i> Manual</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Multiple Steps</td>
+                </tr>
+                <tr>
+                  <td>Legal Compliance</td>
+                  <td><i data-feather="check" class="icon-check"></i> Built-in Tools</td>
+                  <td><i data-feather="x" class="icon-x"></i> None</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Basic Guidance</td>
+                </tr>
+                <tr>
+                  <td>Processing Time</td>
+                  <td><i data-feather="check" class="icon-check"></i> Seconds</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Minutes</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Minutes</td>
+                </tr>
+                <tr>
+                  <td>Support</td>
+                  <td><i data-feather="check" class="icon-check"></i> 24/7 Priority</td>
+                  <td><i data-feather="check" class="icon-partial"></i> Email Only</td>
+                  <td><i data-feather="check" class="icon-check"></i> Live Chat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Choose the Best Cloning Service?</h2>
+        <p>Try BrandCloner today and experience the difference in quality, speed, and ease of use.</p>
+        <a href="index.html#playground" class="btn btn-primary btn-large">Get Started with BrandCloner</a>
+        <p class="cta-note">No credit card required for 14-day trial</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <a href="index.html"><span>Brand</span>Cloner</a>
+          <p>The easiest way to clone brand styles for conversion testing.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="index.html#features">Features</a></li>
+              <li><a href="index.html#how-it-works">How It Works</a></li>
+              <li><a href="index.html#pricing">Pricing</a></li>
+              <li><a href="#">Enterprise</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Showcases</h4>
+            <ul>
+              <li><a href="wordpress-showcase.html">WordPress</a></li>
+              <li><a href="shopify-showcase.html">Shopify</a></li>
+              <li><a href="category-showcase.html">By Category</a></li>
+              <li><a href="comparison-service.html">Service Comparison</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Fair Use Policy</a>
+        </div>
+        <div class="footer-language-switcher">
+          <select id="language-selector">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2023 BrandCloner. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/comparison-service.js"></script>
+</body>
+</html>

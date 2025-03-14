@@ -1,132 +1,636 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta name="keywords" content="mobile, simulator, mobile design, mobile app">
-  <meta name="author" content="Your Name or Company">
-  <meta http-equiv="Content-Language" content="en">
-
-  <!-- Canonical Link -->
-  <link rel="canonical" href="https://www.yourwebsite.com/pc-simulator" />
-
-  <!-- Open Graph for Social Media -->
-  <meta property="og:title" content="PC Simulator">
-  <meta property="og:description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta property="og:image" content="https://www.yourwebsite.com/pc-simulator-image.jpg">
-  <meta property="og:url" content="https://www.yourwebsite.com/pc-simulator">
+  <title>BrandCloner | Clone Any Brand's Style in Seconds</title>
+  <meta name="description" content="Clone any brand's website style instantly. Enter any URL, download files, and test your product's conversion rates on Cloudflare with BrandCloner.">
+  <meta name="keywords" content="brand cloning, website style clone, conversion testing, style replication, Cloudflare testing">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="BrandCloner | Clone Any Brand's Style in Seconds">
+  <meta property="og:description" content="Clone any brand's website style instantly for conversion testing.">
   <meta property="og:type" content="website">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PC Simulator">
-  <meta name="twitter:description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta name="twitter:image" content="https://www.yourwebsite.com/pc-simulator-image.jpg">
-  <meta name="twitter:creator" content="@yourtwitterhandle">
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://www.yourwebsite.com/favicon.ico" type="image/x-icon">
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-XXXXX-Y');
-  </script>
-
-  <!-- Microsoft Clarity -->
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y) {
-      window.clarity=window.clarity||function(){(clarity.q=clarity.q||[]).push(arguments)};
-      clarity('set', 'anonymizeIP', true);
-      i=l.createElement('script');i.async=1;i.src=r;i.type='text/javascript';
-      t=l.getElementsByTagName('script')[0];t.parentNode.insertBefore(i,t);
-    })(document,window,'script','https://www.clarity.ms/tag/XXXXXX');
-  </script>
-
-  <title>PC Simulator</title>
-
-  <style>
-    /* Global Styles */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .mobile-container {
-      width: 360px;
-      height: 640px;
-      border: 16px solid black;
-      border-radius: 16px;
-      background-color: #fff;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .content {
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    /* Adjustments for PC */
-    @media (min-width: 768px) {
-      .mobile-container {
-        width: 600px;
-        height: 1000px;
-      }
-
-      .content {
-        font-size: 1.5rem;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .mobile-container {
-        width: 800px;
-        height: 1400px;
-      }
-
-      .content {
-        font-size: 1.8rem;
-      }
-    }
-
-    /* Additional responsiveness for larger screens */
-    @media (min-width: 1200px) {
-      body {
-        justify-content: flex-start;
-      }
-
-      .mobile-container {
-        margin-top: 50px;
-      }
-    }
-  </style>
+  <meta property="og:url" content="https://brandcloner.com">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://brandcloner.com">
 </head>
-
 <body>
-  <div class="mobile-container">
-    <div class="content">
-      <p>Mobile Simulator Screen</p>
-      <p>PC Version: Adjusted for larger screens.</p>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#"><span>Brand</span>Cloner</a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#playground">Try It</a></li>
+          <li><a href="category-showcase.html">Showcases</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <a href="#" class="btn btn-outline">Login</a>
+        <a href="#playground" class="btn btn-primary">Get Started</a>
+      </div>
+      <button class="mobile-menu-toggle">
+        <i data-feather="menu"></i>
+      </button>
     </div>
-  </div>
-</body>
+  </header>
 
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content" data-i18n-section="hero">
+        <h1 data-i18n="hero.title">Clone Any Brand's Website Style in Seconds</h1>
+        <p data-i18n="hero.subtitle">Enter any brand URL, instantly clone their style, and test your product's conversion rates on Cloudflare with minimal effort.</p>
+        <div class="cta-buttons">
+          <a href="#playground" class="btn btn-primary btn-large" data-i18n="hero.tryButton">Try It Now</a>
+          <a href="#how-it-works" class="btn btn-secondary btn-large" data-i18n="hero.howButton">How It Works</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-i18n="hero.stats.brands">2,500+</span>
+            <span class="stat-text" data-i18n="hero.stats.brandsLabel">Brands Cloned</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-i18n="hero.stats.accuracy">98%</span>
+            <span class="stat-text" data-i18n="hero.stats.accuracyLabel">Accuracy Rate</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-i18n="hero.stats.speed">3x</span>
+            <span class="stat-text" data-i18n="hero.stats.speedLabel">Faster Testing</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="img/hero-illustration.svg" alt="BrandCloner in action showing style cloning process">
+      </div>
+    </div>
+  </section>
+
+  <!-- Added structured data for rich snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "BrandCloner",
+    "applicationCategory": "WebApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "29.00",
+      "priceCurrency": "USD"
+    },
+    "description": "Clone any brand's website style instantly and test your product's conversion rates."
+  }
+  </script>
+
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Powerful Features to Clone Any Brand's Style</h2>
+        <p>BrandCloner makes it easy to replicate the look and feel of successful brands for your conversion testing.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i data-feather="copy"></i>
+          </div>
+          <h3>Perfect Style Cloning</h3>
+          <p>Accurately clone colors, fonts, layouts, and visual elements from any brand's website.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i data-feather="download"></i>
+          </div>
+          <h3>One-Click Downloads</h3>
+          <p>Download all necessary files with a single click, ready for your modifications.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i data-feather="edit"></i>
+          </div>
+          <h3>Easy Customization</h3>
+          <p>Simple file structure makes it easy to customize content for your product testing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i data-feather="cloud"></i>
+          </div>
+          <h3>Cloudflare Integration</h3>
+          <p>Deploy your cloned site to Cloudflare with minimal setup for immediate testing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i data-feather="bar-chart-2"></i>
+          </div>
+          <h3>Conversion Analytics</h3>
+          <p>Track how your product performs within the cloned brand environment.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i data-feather="shield"></i>
+          </div>
+          <h3>Legal Compliance</h3>
+          <p>Tools to ensure your testing stays within fair use and complies with regulations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>How BrandCloner Works</h2>
+        <p>Three simple steps to clone any brand's style and test your product</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Enter a Brand URL</h3>
+            <p>Simply paste the URL of any brand website you want to clone the style from.</p>
+          </div>
+          <div class="step-image">
+            <img src="img/step1-illustration.svg" alt="Enter URL illustration">
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Download Files</h3>
+            <p>Our system extracts the style elements and generates ready-to-use files for you to download.</p>
+          </div>
+          <div class="step-image">
+            <img src="img/step2-illustration.svg" alt="Download files illustration">
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Deploy and Test</h3>
+            <p>Modify content for your product, deploy to Cloudflare, and start measuring conversion rates.</p>
+          </div>
+          <div class="step-image">
+            <img src="img/step3-illustration.svg" alt="Deploy and test illustration">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="playground" class="playground">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="playground.title">Try BrandCloner Now</h2>
+        <p data-i18n="playground.subtitle">Enter any brand URL below and see the magic happen instantly</p>
+      </div>
+      <div class="playground-container">
+        <div class="url-input-container">
+          <input type="text" id="brand-url" aria-label="Brand URL" placeholder="Enter a brand URL (e.g., apple.com, nike.com)" class="url-input" data-i18n-placeholder="playground.inputPlaceholder">
+          <button id="clone-button" class="btn btn-primary" data-i18n="playground.cloneButton">Clone Style</button>
+        </div>
+        <div class="playground-results" id="playground-results">
+          <div class="results-empty-state">
+            <i data-feather="search"></i>
+            <p>Enter a URL above to see the cloned style preview</p>
+          </div>
+          <div class="results-loading" style="display: none;">
+            <div class="loader"></div>
+            <p>Analyzing brand style...</p>
+          </div>
+          <div class="results-error" style="display: none;">
+            <i data-feather="alert-circle"></i>
+            <p>Unable to clone this URL. Please try another website.</p>
+          </div>
+          <div class="results-success" style="display: none;">
+            <div class="results-preview">
+              <div class="preview-header">
+                <h3>Style Preview</h3>
+                <div class="preview-actions">
+                  <button class="btn btn-small btn-outline" id="edit-preview">Edit</button>
+                  <button class="btn btn-small btn-primary" id="download-files">Download Files</button>
+                </div>
+              </div>
+              <div class="preview-iframe-container">
+                <iframe id="preview-iframe" src="about:blank"></iframe>
+              </div>
+            </div>
+            <div class="results-details">
+              <div class="style-details">
+                <h4>Extracted Style Elements</h4>
+                <div class="style-elements">
+                  <div class="style-element">
+                    <span class="element-label">Color Palette:</span>
+                    <div class="color-palette" id="color-palette"></div>
+                  </div>
+                  <div class="style-element">
+                    <span class="element-label">Typography:</span>
+                    <div class="typography-preview" id="typography-preview"></div>
+                  </div>
+                  <div class="style-element">
+                    <span class="element-label">Components:</span>
+                    <div class="components-list" id="components-list"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="deployment-options">
+                <h4>Deployment Options</h4>
+                <button class="btn btn-secondary" id="deploy-to-cloudflare">Deploy to Cloudflare</button>
+                <p class="deployment-note">After downloading, you can modify files and deploy to Cloudflare with our one-click tool.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparison" class="comparison">
+    <div class="container">
+      <div class="section-header">
+        <h2>How BrandCloner Compares to Alternatives</h2>
+        <p>See why marketers and product teams choose our tool for style cloning and conversion testing</p>
+      </div>
+      <div class="comparison-table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th>BrandCloner</th>
+              <th>Manual CSS Copy</th>
+              <th>Template Services</th>
+              <th>Website Builders</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Style Accuracy</td>
+              <td><i data-feather="check" class="icon-check"></i> 98%</td>
+              <td><i data-feather="check" class="icon-partial"></i> 70%</td>
+              <td><i data-feather="check" class="icon-partial"></i> 50%</td>
+              <td><i data-feather="x" class="icon-x"></i> 30%</td>
+            </tr>
+            <tr>
+              <td>Setup Time</td>
+              <td><i data-feather="check" class="icon-check"></i> Minutes</td>
+              <td><i data-feather="x" class="icon-x"></i> Days</td>
+              <td><i data-feather="check" class="icon-partial"></i> Hours</td>
+              <td><i data-feather="check" class="icon-partial"></i> Hours</td>
+            </tr>
+            <tr>
+              <td>Code Customization</td>
+              <td><i data-feather="check" class="icon-check"></i> Full Access</td>
+              <td><i data-feather="check" class="icon-check"></i> Full Access</td>
+              <td><i data-feather="check" class="icon-partial"></i> Limited</td>
+              <td><i data-feather="x" class="icon-x"></i> Very Limited</td>
+            </tr>
+            <tr>
+              <td>Cloudflare Integration</td>
+              <td><i data-feather="check" class="icon-check"></i> Built-in</td>
+              <td><i data-feather="x" class="icon-x"></i> Manual</td>
+              <td><i data-feather="x" class="icon-x"></i> Manual</td>
+              <td><i data-feather="x" class="icon-x"></i> Limited</td>
+            </tr>
+            <tr>
+              <td>Legal Compliance Tools</td>
+              <td><i data-feather="check" class="icon-check"></i> Included</td>
+              <td><i data-feather="x" class="icon-x"></i> None</td>
+              <td><i data-feather="x" class="icon-x"></i> None</td>
+              <td><i data-feather="check" class="icon-partial"></i> Basic</td>
+            </tr>
+            <tr>
+              <td>Time to First Test</td>
+              <td><i data-feather="check" class="icon-check"></i> Same Day</td>
+              <td><i data-feather="x" class="icon-x"></i> 1+ Week</td>
+              <td><i data-feather="check" class="icon-partial"></i> 2-3 Days</td>
+              <td><i data-feather="check" class="icon-partial"></i> 2-3 Days</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="pain-points">
+    <div class="container">
+      <div class="section-header">
+        <h2>Common Challenges in Conversion Testing</h2>
+        <p>How BrandCloner solves the biggest pain points in brand style testing</p>
+      </div>
+      <div class="pain-points-grid">
+        <div class="pain-point-card">
+          <div class="pain-point-icon">
+            <i data-feather="clock"></i>
+          </div>
+          <h3>Time-Consuming Design Process</h3>
+          <p class="pain-description">Manually recreating a brand's style can take weeks, delaying valuable testing time.</p>
+          <div class="solution">
+            <h4>Our Solution:</h4>
+            <p>BrandCloner reduces design time from weeks to minutes with our automated style extraction and cloning.</p>
+          </div>
+        </div>
+        <div class="pain-point-card">
+          <div class="pain-point-icon">
+            <i data-feather="code"></i>
+          </div>
+          <h3>Technical Expertise Required</h3>
+          <p class="pain-description">Traditional methods require advanced CSS and HTML knowledge to accurately recreate styles.</p>
+          <div class="solution">
+            <h4>Our Solution:</h4>
+            <p>No coding required - our tool handles the technical complexities so anyone on your team can create accurate clones.</p>
+          </div>
+        </div>
+        <div class="pain-point-card">
+          <div class="pain-point-icon">
+            <i data-feather="alert-triangle"></i>
+          </div>
+          <h3>Legal Concerns</h3>
+          <p class="pain-description">Copying brand elements raises concerns about copyright and fair use for testing purposes.</p>
+          <div class="solution">
+            <h4>Our Solution:</h4>
+            <p>Built-in compliance tools help ensure your testing stays within legal boundaries for research and testing purposes.</p>
+          </div>
+        </div>
+        <div class="pain-point-card">
+          <div class="pain-point-icon">
+            <i data-feather="refresh-cw"></i>
+          </div>
+          <h3>Difficult Iteration Process</h3>
+          <p class="pain-description">Making changes to test different variations requires rebuilding from scratch.</p>
+          <div class="solution">
+            <h4>Our Solution:</h4>
+            <p>Easy modification system allows quick iterations and A/B testing of multiple variations with minimal effort.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="pricing.title">Simple, Transparent Pricing</h2>
+        <p data-i18n="pricing.subtitle">Choose the plan that fits your testing needs</p>
+      </div>
+      <div class="pricing-toggle">
+        <span>Monthly</span>
+        <label class="switch">
+          <input type="checkbox" id="pricing-toggle">
+          <span class="slider round"></span>
+        </label>
+        <span>Annual <span class="save-badge">Save 20%</span></span>
+      </div>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Starter</h3>
+            <div class="price monthly">
+              <span class="currency">$</span>
+              <span class="amount">29</span>
+              <span class="period">/month</span>
+            </div>
+            <div class="price annual" style="display: none;">
+              <span class="currency">$</span>
+              <span class="amount">23</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li><i data-feather="check"></i> 10 style clones per month</li>
+              <li><i data-feather="check"></i> Basic customization tools</li>
+              <li><i data-feather="check"></i> Manual Cloudflare deployment</li>
+              <li><i data-feather="check"></i> 7-day file storage</li>
+              <li><i data-feather="check"></i> Email support</li>
+              <li class="not-included"><i data-feather="x"></i> Advanced analytics</li>
+              <li class="not-included"><i data-feather="x"></i> Priority support</li>
+              <li class="not-included"><i data-feather="x"></i> Team collaboration</li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn btn-outline btn-block">Start Free Trial</a>
+          </div>
+        </div>
+        <div class="pricing-card featured">
+          <div class="most-popular">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Professional</h3>
+            <div class="price monthly">
+              <span class="currency">$</span>
+              <span class="amount">79</span>
+              <span class="period">/month</span>
+            </div>
+            <div class="price annual" style="display: none;">
+              <span class="currency">$</span>
+              <span class="amount">63</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li><i data-feather="check"></i> <strong>50 style clones per month</strong></li>
+              <li><i data-feather="check"></i> Advanced customization tools</li>
+              <li><i data-feather="check"></i> One-click Cloudflare deployment</li>
+              <li><i data-feather="check"></i> 30-day file storage</li>
+              <li><i data-feather="check"></i> Priority email support</li>
+              <li><i data-feather="check"></i> Basic conversion analytics</li>
+              <li class="not-included"><i data-feather="x"></i> Team collaboration</li>
+              <li class="not-included"><i data-feather="x"></i> White labeling</li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn btn-primary btn-block">Start Free Trial</a>
+          </div>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Enterprise</h3>
+            <div class="price monthly">
+              <span class="currency">$</span>
+              <span class="amount">199</span>
+              <span class="period">/month</span>
+            </div>
+            <div class="price annual" style="display: none;">
+              <span class="currency">$</span>
+              <span class="amount">159</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li><i data-feather="check"></i> <strong>Unlimited style clones</strong></li>
+              <li><i data-feather="check"></i> Custom feature development</li>
+              <li><i data-feather="check"></i> Advanced Cloudflare integration</li>
+              <li><i data-feather="check"></i> Unlimited file storage</li>
+              <li><i data-feather="check"></i> 24/7 priority support</li>
+              <li><i data-feather="check"></i> Advanced conversion analytics</li>
+              <li><i data-feather="check"></i> Team collaboration tools</li>
+              <li><i data-feather="check"></i> White labeling options</li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn btn-outline btn-block">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Users Say</h2>
+        <p>Hear from marketers and product teams using BrandCloner</p>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"BrandCloner saved us weeks of development time. We were able to test our product against 5 different brand styles in just one day, and found the perfect match for our audience."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="img/testimonial-1.svg" alt="Sarah J. - Marketing Director">
+            <div class="author-info">
+              <h4>Sarah J.</h4>
+              <p>Marketing Director, TechStartup Inc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"As a non-technical founder, I was struggling to create professional landing pages for testing. BrandCloner's simple interface allowed me to clone styles from top brands and test my product effectively."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="img/testimonial-2.svg" alt="Michael T. - Startup Founder">
+            <div class="author-info">
+              <h4>Michael T.</h4>
+              <p>Founder, EcomGrowth</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Our conversion rates jumped 45% after using BrandCloner to identify the most effective design style for our audience. The Cloudflare integration made deployment a breeze."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="img/testimonial-3.svg" alt="Lisa R. - Growth Lead">
+            <div class="author-info">
+              <h4>Lisa R.</h4>
+              <p>Growth Lead, MarketBoost</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-nav">
+        <button class="testimonial-nav-prev"><i data-feather="chevron-left"></i></button>
+        <div class="testimonial-indicators">
+          <span class="indicator active"></span>
+          <span class="indicator"></span>
+          <span class="indicator"></span>
+        </div>
+        <button class="testimonial-nav-next"><i data-feather="chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Added testimonial schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Sarah J."
+    },
+    "reviewBody": "BrandCloner saved us weeks of development time. We were able to test our product against 5 different brand styles in just one day."
+  }
+  </script>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Start Cloning Brand Styles Today</h2>
+        <p>Join thousands of marketers and product teams already using BrandCloner to test and improve conversion rates.</p>
+        <a href="#playground" class="btn btn-primary btn-large">Try It Free</a>
+        <p class="cta-note">No credit card required for 14-day trial</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <a href="#"><span>Brand</span>Cloner</a>
+          <p>The easiest way to clone brand styles for conversion testing.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#">Enterprise</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Showcases</h4>
+            <ul>
+              <li><a href="wordpress-showcase.html">WordPress</a></li>
+              <li><a href="shopify-showcase.html">Shopify</a></li>
+              <li><a href="category-showcase.html">By Category</a></li>
+              <li><a href="comparison-service.html">Service Comparison</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Fair Use Policy</a>
+        </div>
+        <div class="footer-language-switcher">
+          <label for="language-selector" class="visually-hidden">Select Language</label>
+          <select id="language-selector" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i data-feather="twitter"></i></a>
+          <a href="#"><i data-feather="linkedin"></i></a>
+          <a href="#"><i data-feather="facebook"></i></a>
+          <a href="#"><i data-feather="instagram"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2023 BrandCloner. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Load scripts at bottom for better performance -->
+  <script src="js/main.js" defer></script>
+  <script src="js/cloner.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+</body>
 </html>

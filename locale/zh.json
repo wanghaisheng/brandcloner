@@ -1,0 +1,299 @@
+{
+  "general": {
+    "language": "中文",
+    "direction": "ltr"
+  },
+  "header": {
+    "features": "功能",
+    "howItWorks": "工作原理",
+    "tryIt": "立即尝试",
+    "comparison": "对比",
+    "pricing": "价格",
+    "login": "登录",
+    "getStarted": "开始使用"
+  },
+  "hero": {
+    "title": "几秒钟内克隆任何品牌的网站风格",
+    "subtitle": "输入任何品牌网址，立即克隆其风格，并在 Cloudflare 上以最小的努力测试您的产品转化率。",
+    "tryButton": "立即尝试",
+    "howButton": "工作原理",
+    "stats": {
+      "brands": "2,500+",
+      "brandsLabel": "已克隆品牌",
+      "accuracy": "98%",
+      "accuracyLabel": "准确率",
+      "speed": "3倍",
+      "speedLabel": "更快的测试"
+    }
+  },
+  "features": {
+    "title": "强大的功能，克隆任何品牌的风格",
+    "subtitle": "BrandCloner 使您能够轻松复制成功品牌的外观和感觉，用于转化测试。",
+    "cards": {
+      "styling": {
+        "title": "完美风格克隆",
+        "description": "准确克隆任何品牌网站的颜色、字体、布局和视觉元素。"
+      },
+      "download": {
+        "title": "一键下载",
+        "description": "只需一键即可下载所有必要的文件，随时可进行修改。"
+      },
+      "customization": {
+        "title": "轻松定制",
+        "description": "简单的文件结构使您能够轻松定制内容进行产品测试。"
+      },
+      "cloudflare": {
+        "title": "Cloudflare 集成",
+        "description": "以最少的设置将克隆的网站部署到 Cloudflare，立即进行测试。"
+      },
+      "analytics": {
+        "title": "转化分析",
+        "description": "跟踪您的产品在克隆的品牌环境中的表现。"
+      },
+      "legal": {
+        "title": "法律合规",
+        "description": "工具确保您的测试在合理使用范围内并符合法规。"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "BrandCloner 如何工作",
+    "subtitle": "克隆任何品牌风格并测试产品的三个简单步骤",
+    "steps": {
+      "step1": {
+        "title": "输入品牌网址",
+        "description": "只需粘贴您想要从中克隆风格的任何品牌网站的网址。"
+      },
+      "step2": {
+        "title": "下载文件",
+        "description": "我们的系统提取风格元素并生成可供您下载的即用型文件。"
+      },
+      "step3": {
+        "title": "部署和测试",
+        "description": "为您的产品修改内容，部署到 Cloudflare，并开始测量转化率。"
+      }
+    }
+  },
+  "playground": {
+    "title": "立即尝试 BrandCloner",
+    "subtitle": "在下方输入任何品牌网址，立即见证神奇效果",
+    "inputPlaceholder": "输入品牌网址（例如，apple.com, nike.com）",
+    "cloneButton": "克隆风格",
+    "emptyState": "在上方输入网址以查看克隆的风格预览",
+    "loadingState": "分析品牌风格中...",
+    "errorState": "无法克隆此网址。请尝试另一个网站。",
+    "preview": {
+      "title": "风格预览",
+      "editButton": "编辑",
+      "downloadButton": "下载文件"
+    },
+    "styleDetails": {
+      "title": "提取的风格元素",
+      "colorPalette": "调色板：",
+      "typography": "排版：",
+      "components": "组件："
+    },
+    "deployment": {
+      "title": "部署选项",
+      "deployButton": "部署到 Cloudflare",
+      "note": "下载后，您可以使用我们的一键工具修改文件并部署到 Cloudflare。"
+    }
+  },
+  "comparison": {
+    "title": "BrandCloner 与替代方案的对比",
+    "subtitle": "了解为什么营销人员和产品团队选择我们的工具进行风格克隆和转化测试",
+    "table": {
+      "features": "功能",
+      "brandCloner": "BrandCloner",
+      "manualCSS": "手动 CSS 复制",
+      "templateServices": "模板服务",
+      "websiteBuilders": "网站构建器",
+      "rows": {
+        "accuracy": "风格准确度",
+        "setup": "设置时间",
+        "customization": "代码定制",
+        "cloudflare": "Cloudflare 集成",
+        "legal": "法律合规工具",
+        "timeToTest": "首次测试时间"
+      },
+      "values": {
+        "high": "高",
+        "medium": "中等",
+        "low": "低",
+        "minutes": "分钟",
+        "hours": "小时",
+        "days": "天",
+        "fullAccess": "完全访问",
+        "limited": "有限",
+        "veryLimited": "非常有限",
+        "builtIn": "内置",
+        "manual": "手动",
+        "basic": "基本",
+        "none": "无",
+        "sameDay": "当天",
+        "severalDays": "2-3 天",
+        "week": "1+ 周"
+      }
+    }
+  },
+  "painPoints": {
+    "title": "转化测试中的常见挑战",
+    "subtitle": "BrandCloner 如何解决品牌风格测试中的最大痛点",
+    "cards": {
+      "time": {
+        "title": "耗时的设计过程",
+        "description": "手动重新创建品牌风格可能需要数周时间，延迟宝贵的测试时间。",
+        "solution": "BrandCloner 通过自动化的风格提取和克隆，将设计时间从数周缩短到几分钟。"
+      },
+      "technical": {
+        "title": "需要技术专业知识",
+        "description": "传统方法需要高级 CSS 和 HTML 知识才能准确重新创建风格。",
+        "solution": "无需编码 - 我们的工具处理技术复杂性，因此您团队中的任何人都可以创建准确的克隆。"
+      },
+      "legal": {
+        "title": "法律顾虑",
+        "description": "复制品牌元素引发了关于版权和用于测试目的的合理使用的顾虑。",
+        "solution": "内置合规工具有助于确保您的测试在研究和测试目的的法律边界内。"
+      },
+      "iteration": {
+        "title": "困难的迭代过程",
+        "description": "要测试不同的变化，需要从头开始重建。",
+        "solution": "简易修改系统允许以最小的努力快速迭代和 A/B 测试多种变体。"
+      }
+    },
+    "solutionLabel": "我们的解决方案："
+  },
+  "pricing": {
+    "title": "简单透明的定价",
+    "subtitle": "选择适合您测试需求的计划",
+    "toggle": {
+      "monthly": "月付",
+      "annual": "年付",
+      "save": "节省 20%"
+    },
+    "plans": {
+      "starter": {
+        "title": "入门版",
+        "monthlyPrice": "¥199",
+        "annualPrice": "¥159",
+        "period": "/月",
+        "features": [
+          "每月 10 次风格克隆",
+          "基本定制工具",
+          "手动 Cloudflare 部署",
+          "7 天文件存储",
+          "邮件支持"
+        ],
+        "notIncluded": [
+          "高级分析",
+          "优先支持",
+          "团队协作"
+        ],
+        "button": "开始免费试用"
+      },
+      "professional": {
+        "title": "专业版",
+        "monthlyPrice": "¥539",
+        "annualPrice": "¥429",
+        "period": "/月",
+        "popular": "最受欢迎",
+        "features": [
+          "每月 50 次风格克隆",
+          "高级定制工具",
+          "一键 Cloudflare 部署",
+          "30 天文件存储",
+          "优先邮件支持",
+          "基本转化分析"
+        ],
+        "notIncluded": [
+          "团队协作",
+          "白标"
+        ],
+        "button": "开始免费试用"
+      },
+      "enterprise": {
+        "title": "企业版",
+        "monthlyPrice": "¥1359",
+        "annualPrice": "¥1089",
+        "period": "/月",
+        "features": [
+          "无限风格克隆",
+          "自定义功能开发",
+          "高级 Cloudflare 集成",
+          "无限文件存储",
+          "24/7 优先支持",
+          "高级转化分析",
+          "团队协作工具",
+          "白标选项"
+        ],
+        "button": "联系销售"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "用户反馈",
+    "subtitle": "听听使用 BrandCloner 的营销人员和产品团队的反馈",
+    "quotes": [
+      {
+        "quote": "BrandCloner 为我们节省了数周的开发时间。我们能够在一天内测试我们的产品与 5 种不同的品牌风格，并找到最适合我们受众的匹配。",
+        "author": "Sarah J.",
+        "position": "营销总监，TechStartup Inc."
+      },
+      {
+        "quote": "作为一个非技术型创始人，我一直在努力创建专业的测试着陆页。BrandCloner 的简单界面让我能够克隆顶级品牌的风格并有效地测试我的产品。",
+        "author": "Michael T.",
+        "position": "创始人，EcomGrowth"
+      },
+      {
+        "quote": "使用 BrandCloner 识别出最适合我们受众的设计风格后，我们的转化率跃升了 45%。Cloudflare 集成使部署变得轻而易举。",
+        "author": "Lisa R.",
+        "position": "增长主管，MarketBoost"
+      }
+    ]
+  },
+  "cta": {
+    "title": "今天开始克隆品牌风格",
+    "subtitle": "加入已经使用 BrandCloner 测试和提高转化率的数千营销人员和产品团队。",
+    "button": "免费试用",
+    "note": "14 天试用无需信用卡"
+  },
+  "footer": {
+    "tagline": "克隆品牌风格进行转化测试的最简单方式。",
+    "sections": {
+      "product": {
+        "title": "产品",
+        "links": [
+          { "text": "功能", "url": "#features" },
+          { "text": "工作原理", "url": "#how-it-works" },
+          { "text": "价格", "url": "#pricing" },
+          { "text": "企业版", "url": "#" }
+        ]
+      },
+      "resources": {
+        "title": "资源",
+        "links": [
+          { "text": "博客", "url": "#" },
+          { "text": "文档", "url": "#" },
+          { "text": "教程", "url": "#" },
+          { "text": "法律指南", "url": "#" }
+        ]
+      },
+      "company": {
+        "title": "公司",
+        "links": [
+          { "text": "关于我们", "url": "#" },
+          { "text": "职业机会", "url": "#" },
+          { "text": "联系我们", "url": "#" },
+          { "text": "媒体资料", "url": "#" }
+        ]
+      }
+    },
+    "legal": {
+      "terms": "服务条款",
+      "privacy": "隐私政策",
+      "fairUse": "合理使用政策"
+    },
+    "copyright": "© 2023 BrandCloner. 保留所有权利。"
+  }
+}
+

@@ -1,0 +1,299 @@
+{
+  "general": {
+    "language": "English",
+    "direction": "ltr"
+  },
+  "header": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "tryIt": "Try It",
+    "comparison": "Comparison",
+    "pricing": "Pricing",
+    "login": "Login",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Clone Any Brand's Website Style in Seconds",
+    "subtitle": "Enter any brand URL, instantly clone their style, and test your product's conversion rates on Cloudflare with minimal effort.",
+    "tryButton": "Try It Now",
+    "howButton": "How It Works",
+    "stats": {
+      "brands": "2,500+",
+      "brandsLabel": "Brands Cloned",
+      "accuracy": "98%",
+      "accuracyLabel": "Accuracy Rate",
+      "speed": "3x",
+      "speedLabel": "Faster Testing"
+    }
+  },
+  "features": {
+    "title": "Powerful Features to Clone Any Brand's Style",
+    "subtitle": "BrandCloner makes it easy to replicate the look and feel of successful brands for your conversion testing.",
+    "cards": {
+      "styling": {
+        "title": "Perfect Style Cloning",
+        "description": "Accurately clone colors, fonts, layouts, and visual elements from any brand's website."
+      },
+      "download": {
+        "title": "One-Click Downloads",
+        "description": "Download all necessary files with a single click, ready for your modifications."
+      },
+      "customization": {
+        "title": "Easy Customization",
+        "description": "Simple file structure makes it easy to customize content for your product testing."
+      },
+      "cloudflare": {
+        "title": "Cloudflare Integration",
+        "description": "Deploy your cloned site to Cloudflare with minimal setup for immediate testing."
+      },
+      "analytics": {
+        "title": "Conversion Analytics",
+        "description": "Track how your product performs within the cloned brand environment."
+      },
+      "legal": {
+        "title": "Legal Compliance",
+        "description": "Tools to ensure your testing stays within fair use and complies with regulations."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How BrandCloner Works",
+    "subtitle": "Three simple steps to clone any brand's style and test your product",
+    "steps": {
+      "step1": {
+        "title": "Enter a Brand URL",
+        "description": "Simply paste the URL of any brand website you want to clone the style from."
+      },
+      "step2": {
+        "title": "Download Files",
+        "description": "Our system extracts the style elements and generates ready-to-use files for you to download."
+      },
+      "step3": {
+        "title": "Deploy and Test",
+        "description": "Modify content for your product, deploy to Cloudflare, and start measuring conversion rates."
+      }
+    }
+  },
+  "playground": {
+    "title": "Try BrandCloner Now",
+    "subtitle": "Enter any brand URL below and see the magic happen instantly",
+    "inputPlaceholder": "Enter a brand URL (e.g., apple.com, nike.com)",
+    "cloneButton": "Clone Style",
+    "emptyState": "Enter a URL above to see the cloned style preview",
+    "loadingState": "Analyzing brand style...",
+    "errorState": "Unable to clone this URL. Please try another website.",
+    "preview": {
+      "title": "Style Preview",
+      "editButton": "Edit",
+      "downloadButton": "Download Files"
+    },
+    "styleDetails": {
+      "title": "Extracted Style Elements",
+      "colorPalette": "Color Palette:",
+      "typography": "Typography:",
+      "components": "Components:"
+    },
+    "deployment": {
+      "title": "Deployment Options",
+      "deployButton": "Deploy to Cloudflare",
+      "note": "After downloading, you can modify files and deploy to Cloudflare with our one-click tool."
+    }
+  },
+  "comparison": {
+    "title": "How BrandCloner Compares to Alternatives",
+    "subtitle": "See why marketers and product teams choose our tool for style cloning and conversion testing",
+    "table": {
+      "features": "Features",
+      "brandCloner": "BrandCloner",
+      "manualCSS": "Manual CSS Copy",
+      "templateServices": "Template Services",
+      "websiteBuilders": "Website Builders",
+      "rows": {
+        "accuracy": "Style Accuracy",
+        "setup": "Setup Time",
+        "customization": "Code Customization",
+        "cloudflare": "Cloudflare Integration",
+        "legal": "Legal Compliance Tools",
+        "timeToTest": "Time to First Test"
+      },
+      "values": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low",
+        "minutes": "Minutes",
+        "hours": "Hours",
+        "days": "Days",
+        "fullAccess": "Full Access",
+        "limited": "Limited",
+        "veryLimited": "Very Limited",
+        "builtIn": "Built-in",
+        "manual": "Manual",
+        "basic": "Basic",
+        "none": "None",
+        "sameDay": "Same Day",
+        "severalDays": "2-3 Days",
+        "week": "1+ Week"
+      }
+    }
+  },
+  "painPoints": {
+    "title": "Common Challenges in Conversion Testing",
+    "subtitle": "How BrandCloner solves the biggest pain points in brand style testing",
+    "cards": {
+      "time": {
+        "title": "Time-Consuming Design Process",
+        "description": "Manually recreating a brand's style can take weeks, delaying valuable testing time.",
+        "solution": "BrandCloner reduces design time from weeks to minutes with our automated style extraction and cloning."
+      },
+      "technical": {
+        "title": "Technical Expertise Required",
+        "description": "Traditional methods require advanced CSS and HTML knowledge to accurately recreate styles.",
+        "solution": "No coding required - our tool handles the technical complexities so anyone on your team can create accurate clones."
+      },
+      "legal": {
+        "title": "Legal Concerns",
+        "description": "Copying brand elements raises concerns about copyright and fair use for testing purposes.",
+        "solution": "Built-in compliance tools help ensure your testing stays within legal boundaries for research and testing purposes."
+      },
+      "iteration": {
+        "title": "Difficult Iteration Process",
+        "description": "Making changes to test different variations requires rebuilding from scratch.",
+        "solution": "Easy modification system allows quick iterations and A/B testing of multiple variations with minimal effort."
+      }
+    },
+    "solutionLabel": "Our Solution:"
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your testing needs",
+    "toggle": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "save": "Save 20%"
+    },
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "monthlyPrice": "$29",
+        "annualPrice": "$23",
+        "period": "/month",
+        "features": [
+          "10 style clones per month",
+          "Basic customization tools",
+          "Manual Cloudflare deployment",
+          "7-day file storage",
+          "Email support"
+        ],
+        "notIncluded": [
+          "Advanced analytics",
+          "Priority support",
+          "Team collaboration"
+        ],
+        "button": "Start Free Trial"
+      },
+      "professional": {
+        "title": "Professional",
+        "monthlyPrice": "$79",
+        "annualPrice": "$63",
+        "period": "/month",
+        "popular": "Most Popular",
+        "features": [
+          "50 style clones per month",
+          "Advanced customization tools",
+          "One-click Cloudflare deployment",
+          "30-day file storage",
+          "Priority email support",
+          "Basic conversion analytics"
+        ],
+        "notIncluded": [
+          "Team collaboration",
+          "White labeling"
+        ],
+        "button": "Start Free Trial"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "monthlyPrice": "$199",
+        "annualPrice": "$159",
+        "period": "/month",
+        "features": [
+          "Unlimited style clones",
+          "Custom feature development",
+          "Advanced Cloudflare integration",
+          "Unlimited file storage",
+          "24/7 priority support",
+          "Advanced conversion analytics",
+          "Team collaboration tools",
+          "White labeling options"
+        ],
+        "button": "Contact Sales"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "subtitle": "Hear from marketers and product teams using BrandCloner",
+    "quotes": [
+      {
+        "quote": "BrandCloner saved us weeks of development time. We were able to test our product against 5 different brand styles in just one day, and found the perfect match for our audience.",
+        "author": "Sarah J.",
+        "position": "Marketing Director, TechStartup Inc."
+      },
+      {
+        "quote": "As a non-technical founder, I was struggling to create professional landing pages for testing. BrandCloner's simple interface allowed me to clone styles from top brands and test my product effectively.",
+        "author": "Michael T.",
+        "position": "Founder, EcomGrowth"
+      },
+      {
+        "quote": "Our conversion rates jumped 45% after using BrandCloner to identify the most effective design style for our audience. The Cloudflare integration made deployment a breeze.",
+        "author": "Lisa R.",
+        "position": "Growth Lead, MarketBoost"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Cloning Brand Styles Today",
+    "subtitle": "Join thousands of marketers and product teams already using BrandCloner to test and improve conversion rates.",
+    "button": "Try It Free",
+    "note": "No credit card required for 14-day trial"
+  },
+  "footer": {
+    "tagline": "The easiest way to clone brand styles for conversion testing.",
+    "sections": {
+      "product": {
+        "title": "Product",
+        "links": [
+          { "text": "Features", "url": "#features" },
+          { "text": "How It Works", "url": "#how-it-works" },
+          { "text": "Pricing", "url": "#pricing" },
+          { "text": "Enterprise", "url": "#" }
+        ]
+      },
+      "resources": {
+        "title": "Resources",
+        "links": [
+          { "text": "Blog", "url": "#" },
+          { "text": "Documentation", "url": "#" },
+          { "text": "Tutorials", "url": "#" },
+          { "text": "Legal Guidelines", "url": "#" }
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "links": [
+          { "text": "About Us", "url": "#" },
+          { "text": "Careers", "url": "#" },
+          { "text": "Contact", "url": "#" },
+          { "text": "Press Kit", "url": "#" }
+        ]
+      }
+    },
+    "legal": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "fairUse": "Fair Use Policy"
+    },
+    "copyright": "© 2023 BrandCloner. All rights reserved."
+  }
+}
+

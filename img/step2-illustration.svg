@@ -1,0 +1,56 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f7fa"/>
+      <stop offset="100%" stop-color="#e4e7eb"/>
+    </linearGradient>
+    <linearGradient id="primary-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" fill="url(#bg-gradient)"/>
+
+  <!-- Download Dialog Box -->
+  <rect x="70" y="40" width="260" height="220" rx="10" fill="white" stroke="#e5e7eb" stroke-width="2" filter="drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1))"/>
+  
+  <!-- Dialog Header -->
+  <rect x="70" y="40" width="260" height="40" rx="10 10 0 0" fill="#f3f4f6"/>
+  <text x="100" y="65" font-family="Arial" font-weight="bold" font-size="14" fill="#1f2937">Files Ready for Download</text>
+  
+  <!-- File List -->
+  <!-- HTML File -->
+  <rect x="90" y="100" width="220" height="30" rx="5" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="105" y="110" width="20" height="10" rx="2" fill="#ef4444"/>
+  <text x="130" y="118" font-family="Arial" font-size="12" fill="#4b5563">index.html</text>
+  
+  <!-- CSS File -->
+  <rect x="90" y="140" width="220" height="30" rx="5" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="105" y="150" width="20" height="10" rx="2" fill="#3b82f6"/>
+  <text x="130" y="158" font-family="Arial" font-size="12" fill="#4b5563">style.css</text>
+  
+  <!-- Images Folder -->
+  <rect x="90" y="180" width="220" height="30" rx="5" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="105" y="190" width="20" height="10" rx="2" fill="#10b981"/>
+  <text x="130" y="198" font-family="Arial" font-size="12" fill="#4b5563">images/ (4 files)</text>
+  
+  <!-- Download Button -->
+  <rect x="160" y="220" width="140" height="35" rx="5" fill="url(#primary-gradient)"/>
+  <text x="190" y="242" font-family="Arial" font-weight="bold" font-size="14" fill="white">Download All</text>
+  
+  <!-- Download Icon -->
+  <circle cx="175" cy="238" r="12" fill="white" opacity="0.2"/>
+  <path d="M175 230 L175 240 M170 236 L175 241 L180 236" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- File Type Icons -->
+  <path d="M320 120 L330 110 L350 110 L350 130 L330 130 Z" fill="url(#accent-gradient)" opacity="0.6"/>
+  <path d="M320 160 L330 150 L350 150 L350 170 L330 170 Z" fill="url(#accent-gradient)" opacity="0.6"/>
+  <path d="M320 200 L330 190 L350 190 L350 210 L330 210 Z" fill="url(#accent-gradient)" opacity="0.6"/>
+</svg>
+
